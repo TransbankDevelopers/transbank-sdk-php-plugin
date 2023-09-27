@@ -1,0 +1,28 @@
+{
+    "name": "transbank/transbank-sdk-plugin",
+    "description": "Transbank SDK PHP for Plugin's",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Transbank\\Plugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TransbankDevelopers"
+        }
+    ],
+    "require": {
+        "transbank/transbank-sdk": "~2.0",
+        "monolog/monolog": "^1.27",
+        "guzzlehttp/guzzle": "^5",
+        "ext-json": "*",
+        "php": ">=7.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
